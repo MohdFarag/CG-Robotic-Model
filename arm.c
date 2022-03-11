@@ -1,10 +1,10 @@
-// Robotic Arm
+// Robotic Arm model
 // Mohamed Ahmed Abdullah
 // Ismail Tawfik
 
 #include <stdlib.h>
 #include <GL/glut.h>
-
+// rotation variabels
 
 static int shoulder = 0, elbow = 0, fingerBasePhalange = 0, fingerUpPhalange = 0;
 static int fingerBase = 0, fingerUp = 0;
