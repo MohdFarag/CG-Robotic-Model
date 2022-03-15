@@ -7,10 +7,10 @@
 <li>We animated the model by animated the elbow, shoulder and fingers and its rotated limitations.</li>
 </ul>
 
-## Review:
-<img src="https://github.com/MohdFarag/Robotic-Arm-Model/blob/main/images/img1.png?raw=true">
-<img src="https://github.com/MohdFarag/Robotic-Arm-Model/blob/main/images/img2.png?raw=true">
-<img src="https://github.com/MohdFarag/Robotic-Arm-Model/blob/main/images/img3.png?raw=true">
+## Preview (screenshots):
+<img width="700px" src="https://github.com/MohdFarag/Robotic-Arm-Model/blob/main/images/img1.png?raw=true">
+<img width="700px" src="https://github.com/MohdFarag/Robotic-Arm-Model/blob/main/images/img2.png?raw=true">
+<img width="700px" src="https://github.com/MohdFarag/Robotic-Arm-Model/blob/main/images/img3.png?raw=true">
 
 ## Issues we faced:
 <ul>
@@ -29,4 +29,6 @@
 <a href="https://github.com/Ismail-Tawfik">Ismail Tawfik</a>
 </span>
 
+---
 
+### Note: Source of starter code: <a href="https://github.com/sbme-tutorials/Computer-Graphics-Tutorials/blob/master/Tutorial-02/arm.c">source</a>
