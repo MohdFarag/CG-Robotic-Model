@@ -167,8 +167,8 @@
 
 <ul>
 <li>Dealing with glPushMatrix and glPopMatrix functions in openGl confused us.
-<span style="font-size:10px; color: #00ff26">Passed</span></li>
-
+</li>
+<span style="font-size:10px; color: #00ff26">Passed</span>
 <p style="font-size:11px;">We determine the transformation functions, current matrix and stack from the first of the code to the end and solve that.</p>
 </ul>
 
