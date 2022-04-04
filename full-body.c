@@ -1,4 +1,4 @@
-// Full Body Movments //
+// Full Body Movements //
 
 // Mohamed Ahmed Abdullah 1190388
 // Ismail Tawfik 1190264
