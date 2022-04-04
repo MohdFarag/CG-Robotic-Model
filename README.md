@@ -168,7 +168,7 @@
 <ul>
 <li>Dealing with glPushMatrix and glPopMatrix functions in openGl confused us.
 </li>
-<span style="font-size:10px; color: #00ff26">Passed</span>
+<span style="font-size:10px; color: green">Passed</span>
 <p style="font-size:11px;">We determine the transformation functions, current matrix and stack from the first of the code to the end and solve that.</p>
 </ul>
 
@@ -189,3 +189,5 @@
 ---
 
 ### Note: Source of starter code: <a href="https://github.com/sbme-tutorials/Computer-Graphics-Tutorials/blob/master/Tutorial-02/arm.c">source</a>
+
+thanks!
