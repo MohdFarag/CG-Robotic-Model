@@ -440,12 +440,10 @@ void timer(int t)
     if (run == 1) {
         glutTimerFunc(500, timer, 0);
 
-        if (shoulder < 90)
+        if (shoulder < 180)
         {
             shoulder = (shoulder + 5) % 360;
-
         }
-
         else
         {
             if (shoulder2 < 180)
@@ -457,10 +455,12 @@ void timer(int t)
             {
                 shoulder1 = (shoulder1 - 5) % 360;
             }
-            else if (shoulder < 180)
-            {
-                shoulder = (shoulder + 5) % 360;
-            }
+        }
+        if (shoulder == 180 && shoulder2 == 180 && shoulder1 == -180)
+        {
+            shoulder = 0;
+            shoulder1 = 0;
+            shoulder2 = 0;
         }
 
         glutPostRedisplay();
