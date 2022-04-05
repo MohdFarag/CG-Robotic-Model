@@ -208,7 +208,7 @@
 
 <br>
 
-<b>Camera movements:</b>
+<b>Camera movements & Time Function:</b>
 
 ---
 <img width="400px" src="https://github.com/MohdFarag/Robotic-Arm-Model/blob/main/images/cameraMovements.gif?raw=true">
