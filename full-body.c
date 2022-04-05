@@ -10,7 +10,7 @@
 #include <stdio.h>
 
 //Body variables
-static int body = 0;
+static int body = 0; int run = 0;
 
 //Right Shoulder variables
 static int shoulder1 = 0, shoulder1R = 0, shoulder1V=0, elbow1 = 0, fingerBasePhalange = 0, fingerUpPhalange = 0;
@@ -432,42 +432,39 @@ void reshape(int w, int h)
 }
 
 
-
 //////////////////////////
 
 // Timer function
-
 void timer(int t)
 {
-    glutTimerFunc(500, timer, 0);
-    
-    if (  shoulder < 90 )
-    {
-        shoulder = (shoulder + 5) % 360;
+    if (run == 1) {
+        glutTimerFunc(500, timer, 0);
 
-    }
-
-    else
-    {
-        if (shoulder2 < 180)
-        {
-            shoulder2 = (shoulder2 + 5) % 360;
-
-        }
-       
-        if (shoulder1 > -180)
-        {
-            shoulder1 = (shoulder1 - 5) % 360;
-
-        }
-        else if(   shoulder < 180)
+        if (shoulder < 90)
         {
             shoulder = (shoulder + 5) % 360;
 
-        }      
-    }
+        }
 
-    glutPostRedisplay();    
+        else
+        {
+            if (shoulder2 < 180)
+            {
+                shoulder2 = (shoulder2 + 5) % 360;
+            }
+
+            if (shoulder1 > -180)
+            {
+                shoulder1 = (shoulder1 - 5) % 360;
+            }
+            else if (shoulder < 180)
+            {
+                shoulder = (shoulder + 5) % 360;
+            }
+        }
+
+        glutPostRedisplay();
+    }
 }
 
 ////////////////////////////
@@ -480,8 +477,13 @@ void keyboard(unsigned char key, int x, int y)
     //Timer Function Movments  
 
     case 'w':
-
+        run = 1;
         timer(shoulder);
+        glutPostRedisplay();
+        break;
+
+    case 'W':
+        run = 0;
         glutPostRedisplay();
         break;
 

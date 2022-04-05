@@ -23,22 +23,22 @@
 </thead>
 <tbody>
   <tr>
-    <td>↑</td>
+    <td>8</td>
     <td>Camera rotation up</td>
     <td></td>
   </tr>
   <tr>
-    <td>↓</td>
+    <td>2</td>
     <td>Camera rotation down</td>
     <td> </td>
   </tr>
   <tr>
-    <td>→</td>
+    <td>6</td>
     <td>Camera rotation right</td>
     <td> </td>
   </tr>
   <tr>
-    <td>←</td>
+    <td>4</td>
     <td>Camera rotation left</td>
     <td> </td>
   </tr>
@@ -53,7 +53,7 @@
     <td> </td>
   </tr>
   <tr>
-    <td>Space Bar</td>
+    <td>W</td>
     <td>Start/Stop animation</td>
     <td> </td>
   </tr>
@@ -66,6 +66,36 @@
     <td>S</td>
     <td>Shoulder Rotation</td>
     <td>Adduction</td>
+  </tr>
+  <tr>
+    <td>x</td>
+    <td>Right Shoulder Rotation in z-axis</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>X</td>
+    <td>Right Shoulder Rotation in z-axis</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>z</td>
+    <td>Left Shoulder Rotation in z-axis</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Z</td>
+    <td>Left Shoulder Rotation in z-axis</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>l</td>
+    <td>Shoulders Rotation in y-axis</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>L</td>
+    <td>Shoulders Rotation in y-axis</td>
+    <td></td>
   </tr>
   <tr>
     <td>e</td>
@@ -116,6 +146,26 @@
     <td>I</td>
     <td>Hip rotation Leg2</td>
     <td>Adduction</td>
+  </tr>
+  <tr>
+    <td>o</td>
+    <td>Right leg rotation</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>O</td>
+    <td>Right leg rotation</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>j</td>
+    <td>Left leg rotation</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>J</td>
+    <td>Left leg rotation</td>
+    <td></td>
   </tr>
   <tr>
     <td></td>
