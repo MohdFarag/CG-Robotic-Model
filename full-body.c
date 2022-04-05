@@ -4,10 +4,11 @@
 // Ismail Tawfik 1190264
 // Abdulrahman Elshahed
 
+// Includes
 #include <stdlib.h>
-#include <GL/glut.h>
 #include <math.h>
 #include <stdio.h>
+#include <GL/glut.h>
 
 //Body variables
 static int body = 0; int run = 0;
