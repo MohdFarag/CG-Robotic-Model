@@ -29,8 +29,8 @@ static int legDown1 = 0,legR=0, legBase1 = 0, foot1 = 0;
 //Left Leg variables
 static int legDown2 = 0, legBase2 = 0,legL=0, foot2 = 0;
 
-double eye[] = { 0 , 0, -1 };
-double center[] = { 0, 0, 4 };
+double eye[] = { 0 , 0, -5 };
+double center[] = { 0, 0, 5 };
 double up[] = { 0, 1, 0 };
 double perpendicularAxis[] = { 0, 0, 0 };
 GLfloat Znear = 100.0;
