@@ -1,4 +1,4 @@
-# CG-Robotic-Model <span style="font-size:12px">with movements and texture</span>
+# CG Robotic Model
 
 ![لقطة الشاشة 2022-05-19 225553](https://user-images.githubusercontent.com/84231705/169403170-22f00223-6180-4d8a-af11-2a47116de204.png)
 
