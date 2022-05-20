@@ -1,6 +1,8 @@
-# Full Robotic Body <span style="font-size:12px">with movements</span>
+# Enviroment and Robotic Body <span style="font-size:12px">with movements</span>
 
-<b>A visualization openGl and cpp code for full robotic body model with all parts of the body, and their limitations.</b>
+![لقطة الشاشة 2022-05-19 225553](https://user-images.githubusercontent.com/84231705/169403170-22f00223-6180-4d8a-af11-2a47116de204.png)
+
+<b>A visualization openGl and cpp code for full robotic body model with all parts of the body, their limitations and floor and objects.</b>
 
 ## Implementation details
 
@@ -9,6 +11,11 @@
     <li>We animated the model by animated hands, legs, parts of them and its rotated limitations.</li>
     <li>We implement camera movements horizontally and vertically, navigate forward and backward (zoom in +, zoom out -, rotation up ↑,  rotation down ↓, rotation right →, rotation left ←) </li>
     <li>We implement the timer function to make the robot interactive without press any key.</li>
+    <li>Adding a floor below the robotic body.</li>
+    <li>Adding a texture to the floor.</li>
+    <li>Having a menu to change the texture of the floor.</li> 
+    <li>Adding some objects, a scene, to the enviroment.</li>
+    <li>Making an animation for the robotic body.</li>
 </ul>
 
 ## Control Keys
@@ -183,11 +190,7 @@
 <img width="200px" src="https://github.com/MohdFarag/Robotic-Arm-Model/blob/main/images/img2.png?raw=true">
 <img width="200px" src="https://github.com/MohdFarag/Robotic-Arm-Model/blob/main/images/img3.png?raw=true">
 
-### Seconed model (Full Body model)
-
-<img width="400px" src="https://github.com/MohdFarag/Robotic-Arm-Model/blob/main/images/prev (1).png?raw=true">
-
-### Final model
+### Seconed model
 
 <img width="410px" src="https://github.com/MohdFarag/Robotic-Arm-Model/blob/main/images/prev (1).png?raw=true">
 <img height="350px" src="https://github.com/MohdFarag/Robotic-Arm-Model/blob/main/images/prev (2).png?raw=true">
@@ -213,13 +216,25 @@
 ---
 <img width="400px" src="https://github.com/MohdFarag/Robotic-Arm-Model/blob/main/images/cameraMovements.gif?raw=true">
 
+### Final model
+
+
+![لقطة الشاشة 2022-05-19 233919](https://user-images.githubusercontent.com/84231705/169409318-e5804486-f1a1-427f-8163-dcad7ef9d78f.png)
+![image](https://user-images.githubusercontent.com/84231705/169409959-a34525ec-0db0-4931-910e-9959454cbced.png)
+
+![bandicam 2022-05-19 23-17-03-235](https://user-images.githubusercontent.com/84231705/169406745-4d301228-818e-4fb7-a824-2a738a3edbe5.gif)
+![bandicam 2022-05-19 22-36-04-460 (online-video-cutter com)](https://user-images.githubusercontent.com/84231705/169402365-cd45edb6-cdef-47bf-b6c4-7f5359cd0a40.gif)
+
+
 ## Issues we faced
 
 <ul>
 <li>Dealing with glPushMatrix and glPopMatrix functions in openGl confused us.
 </li>
 <span style="font-size:10px; color: green">Passed</span>
-<p style="font-size:11px;">We determine the transformation functions, current matrix and stack from the first of the code to the end and solve that.</p>
+<li style="font-size:11px;">We determine the transformation functions, current matrix and stack from the first of the code to the end and solve that.</li>
+<li>The process of placing the objects in their location and maintainng the transformation was challenging and time consuming.</li>
+<li>The Animation that is added to the robot was very hard as we tried to make it look as real as possible.</li>
 </ul>
 
 ---
