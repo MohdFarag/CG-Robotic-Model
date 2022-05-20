@@ -4,6 +4,35 @@
 
 <b>A visualization openGl and cpp code for full robotic body model with all parts of the body, their limitations and floor and objects.</b>
 
+## Installation
+### Linux Users
+`sudo apt-get install freeglut3-dev` 
+
+### Windows Users
+- Download the compiled source files <a href="https://osdn.net/projects/sfnet_colladaloader/downloads/colladaloader/colladaloader%201.1/glut-3.7.6-bin.zip/">Here</a>.
+- Create a new folder in “C:\” directory, and name it “glut”.
+- Inside “C:\glut”, create two new folders with names “include” and “lib”
+
+- Create a new folder and call it “GL” inside “C:\glut\include”, copy glut.h” from the unzipped file and passed it here. where you should have : C:\glut\include\GL\glut.h
+
+- Inside “C:\glut\lib” copy “glut.def ” + “glut32.lib” + “glut32.dll” + “README-win32.txt” from the unzipped file and passed it here. where you should have : So: C:\glut\lib\glut.def, C:\glut\lib\glut32.lib, C:\glut\lib\ glut32.dll, C:\glut\lib\ README-win32.txt
+
+- Start, Control Panel, System, Advanced, Environment Variables
+
+- In the “Environment Variables” window and under the “system variables” select “path”, then click “edit” and in the “variable value” label add “C:\glut\lib”, then click “Ok”
+
+- restart your computer to make sure that the windows operating system noticed those changes.
+
+- Go to Visual Studio and create your C++ project as follow:
+
+    - New Project
+    - Under “Installed” on the left panel; select “Visual C++”, then select “ Win32” ,select from the middle panel “Win32 console application”, rename your project (with a meaningful name, ex: HelloCG), select your path from “Browse”, then click “Ok”.
+    - In the “Win32 Application Wizard” click “Next”, under “Additional options”select “Empty project”, then click “Finish”
+From “Solution Explorer” window, right click on “Source Files” and chose “Add” then chose “New Item…”
+    - From the “Add Existing Item” window, Add files of project.
+    - Move the data&images folders to the folder of the visual studio project.
+    - Go to “Project”, then “Properties” and in the “Configuration Properties” in the left panel chose “VC++ Directories”, then from the right panel edit “Include Directories” and browse to add the path of the C:\glut\include, also edit “”Library Directories” and browse to add “C:\glut\lib”.
+
 ## Implementation details
 
 <ul>
