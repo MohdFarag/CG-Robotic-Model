@@ -1,0 +1,30 @@
+# childBed.mtl
+# 
+# Created by Jabberwalky
+# Normals adjusted and materials added by Emmanuel Puybaret / eTeks
+# https://sourceforge.net/p/sweethome3d/d-models/434/ 
+#
+# This file is distributed under Free Art License, see http://artlibre.org/licence/lal/en for more informations
+#
+newmtl Drawer
+Ns 10
+Ka 1.8 1.8 1.8
+Kd 2.8 1.8 1.8
+Ks 3.1 1.1 1.1
+illum 2
+map_Kd bleachedWood.jpg
+
+newmtl Frame
+Ns 10
+Ka 0.8 0.8 0.8
+Kd 0.8 0.8 0.8
+Ks 0.1 0.1 0.1
+illum 2
+map_Kd bleachedWood.jpg
+
+newmtl Mattress
+Ns 1
+Ka 0.7 0.69 0.6
+Kd 0.7 0.69 0.6
+Ks 0 0 0
+illum 2
