@@ -215,35 +215,35 @@ From “Solution Explorer” window, right click on “Source Files” and chose
 
 ### First model  (Hand model)
 
-<img width="200px" src="https://github.com/MohdFarag/Robotic-Arm-Model/blob/main/images/img1.png?raw=true">
-<img width="200px" src="https://github.com/MohdFarag/Robotic-Arm-Model/blob/main/images/img2.png?raw=true">
-<img width="200px" src="https://github.com/MohdFarag/Robotic-Arm-Model/blob/main/images/img3.png?raw=true">
+<img width="200px" src="https://github.com/MohdFarag/Robotic-Arm-Model/blob/main/docs/img1.png?raw=true">
+<img width="200px" src="https://github.com/MohdFarag/Robotic-Arm-Model/blob/main/docs/img2.png?raw=true">
+<img width="200px" src="https://github.com/MohdFarag/Robotic-Arm-Model/blob/main/docs/img3.png?raw=true">
 
 ### Seconed model
 
-<img width="410px" src="https://github.com/MohdFarag/Robotic-Arm-Model/blob/main/images/prev (1).png?raw=true">
-<img height="350px" src="https://github.com/MohdFarag/Robotic-Arm-Model/blob/main/images/prev (2).png?raw=true">
+<img width="410px" src="https://github.com/MohdFarag/Robotic-Arm-Model/blob/main/docs/prev (1).png?raw=true">
+<img height="350px" src="https://github.com/MohdFarag/Robotic-Arm-Model/blob/main/docs/prev (2).png?raw=true">
 
 <br>
 
 <b>Hands movements:</b>
 
 ---
-<img width="400px" src="https://github.com/MohdFarag/Robotic-Arm-Model/blob/main/images/handMovements.gif?raw=true">
+<img width="400px" src="https://github.com/MohdFarag/Robotic-Arm-Model/blob/main/docs/handMovements.gif?raw=true">
 
 <br>
 
 <b>Foot movements:</b>
 
 ---
-<img width="400px" src="https://github.com/MohdFarag/Robotic-Arm-Model/blob/main/images/footMovements.gif?raw=true">
+<img width="400px" src="https://github.com/MohdFarag/Robotic-Arm-Model/blob/main/docs/footMovements.gif?raw=true">
 
 <br>
 
 <b>Camera movements & Time Function:</b>
 
 ---
-<img width="400px" src="https://github.com/MohdFarag/Robotic-Arm-Model/blob/main/images/cameraMovements.gif?raw=true">
+<img width="400px" src="https://github.com/MohdFarag/Robotic-Arm-Model/blob/main/docs/cameraMovements.gif?raw=true">
 
 ### Final model
 
