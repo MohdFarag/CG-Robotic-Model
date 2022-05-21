@@ -215,45 +215,50 @@ From “Solution Explorer” window, right click on “Source Files” and chose
 
 ### First model  (Hand model)
 
-<img width="200px" src="https://github.com/MohdFarag/Robotic-Arm-Model/blob/main/docs/img1.png?raw=true">
-<img width="200px" src="https://github.com/MohdFarag/Robotic-Arm-Model/blob/main/docs/img2.png?raw=true">
-<img width="200px" src="https://github.com/MohdFarag/Robotic-Arm-Model/blob/main/docs/img3.png?raw=true">
+<table>
+<td><img width="300px" src="https://github.com/MohdFarag/Robotic-Arm-Model/blob/main/Docs/img1.png?raw=true"></td>
+<td><img width="300px" src="https://github.com/MohdFarag/Robotic-Arm-Model/blob/main/Docs/img2.png?raw=true"></td>
+<td><img width="300px" src="https://github.com/MohdFarag/Robotic-Arm-Model/blob/main/Docs/img3.png?raw=true"></td>
+</table>
 
 ### Seconed model
-
-<img width="410px" src="https://github.com/MohdFarag/Robotic-Arm-Model/blob/main/docs/prev (1).png?raw=true">
-<img height="350px" src="https://github.com/MohdFarag/Robotic-Arm-Model/blob/main/docs/prev (2).png?raw=true">
+<table>
+<td><img width="410px" src="https://github.com/MohdFarag/Robotic-Arm-Model/blob/main/Docs/prev (1).png?raw=true"></td>
+<td><img height="350px" src="https://github.com/MohdFarag/Robotic-Arm-Model/blob/main/Docs/prev (2).png?raw=true"></td>
+</table>
 
 <br>
 
 <b>Hands movements:</b>
 
 ---
-<img width="400px" src="https://github.com/MohdFarag/Robotic-Arm-Model/blob/main/docs/handMovements.gif?raw=true">
+<img width="400px" src="https://github.com/MohdFarag/Robotic-Arm-Model/blob/main/Docs/handMovements.gif?raw=true">
 
 <br>
 
 <b>Foot movements:</b>
 
 ---
-<img width="400px" src="https://github.com/MohdFarag/Robotic-Arm-Model/blob/main/docs/footMovements.gif?raw=true">
+<img width="400px" src="https://github.com/MohdFarag/Robotic-Arm-Model/blob/main/Docs/footMovements.gif?raw=true">
 
 <br>
 
 <b>Camera movements & Time Function:</b>
 
 ---
-<img width="400px" src="https://github.com/MohdFarag/Robotic-Arm-Model/blob/main/docs/cameraMovements.gif?raw=true">
+<img width="400px" src="https://github.com/MohdFarag/Robotic-Arm-Model/blob/main/Docs/cameraMovements.gif?raw=true">
 
 ### Final model
 
-
-![لقطة الشاشة 2022-05-19 233919](https://user-images.githubusercontent.com/84231705/169409318-e5804486-f1a1-427f-8163-dcad7ef9d78f.png)
-![image](https://user-images.githubusercontent.com/84231705/169409959-a34525ec-0db0-4931-910e-9959454cbced.png)
-
-![bandicam 2022-05-19 23-17-03-235](https://user-images.githubusercontent.com/84231705/169406745-4d301228-818e-4fb7-a824-2a738a3edbe5.gif)
-![bandicam 2022-05-19 22-36-04-460 (online-video-cutter com)](https://user-images.githubusercontent.com/84231705/169402365-cd45edb6-cdef-47bf-b6c4-7f5359cd0a40.gif)
-
+<table>
+<td><img src="https://user-images.githubusercontent.com/84231705/169409318-e5804486-f1a1-427f-8163-dcad7ef9d78f.png" width="600" /></td>
+<td><img src="https://user-images.githubusercontent.com/84231705/169409959-a34525ec-0db0-4931-910e-9959454cbced.png" width="600" /></td>
+</table>
+ 
+<table>
+<td><img src="https://user-images.githubusercontent.com/84231705/169406745-4d301228-818e-4fb7-a824-2a738a3edbe5.gif"  width="700" /></td>
+<td><img src="https://user-images.githubusercontent.com/84231705/169402365-cd45edb6-cdef-47bf-b6c4-7f5359cd0a40.gif" width="700" /></td>
+</table>
 
 ## Issues we faced
 
